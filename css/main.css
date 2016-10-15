@@ -25,6 +25,7 @@ body {
 img {
   width: 100%;
   color: #666;
+  display: inline-block;
 }
 
 h1 {
@@ -40,7 +41,6 @@ h1 {
   border: 3px solid #333;
   text-align: center;
   text-decoration: none;
-  vertical-align: left;
   font-weight: 400;
 }
 
