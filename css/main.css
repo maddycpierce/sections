@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
 *, *::before, *::after {
@@ -7,30 +8,38 @@ html {
 }
 
 body {
-  margin: 0;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  background-color: #f2f2f2;
+  margin: auto;
   line-height: 1.5;
-  font-family: "Lato", sans-serif;
   color: #333;
   font-size: 70%;
   font-weight: 400;
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+
 }
 
-img {
+.section {
+  background-color: #f2f2f2;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.section-image {
   width: 100%;
   color: #666;
-  display: inline;
+  display: block;
+  max-width: 25em;
 }
 
-h2 {
-  text-align: left;
+.section-body
+  width: 100%;
   color: #333;
   font-weight: 700;
 }
 
-.btn {
+a.btn {
   padding: 0.4em 0.75em 0.5em;
   background-color: #fff;
   border-radius: 8px;
@@ -48,7 +57,6 @@ h2 {
 }
 
 div {
-  vertical-align: middle;
   max-width:25em;
   display: inline-block;
   margin: 1.5rem;
