@@ -8,42 +8,34 @@ html {
 }
 
 body {
-  margin: auto;
+  margin: 0;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #f2f2f2;
   line-height: 1.5;
   color: #333;
   font-size: 70%;
-<<<<<<< HEAD
   font-weight: 400;
   width: 100%;
   display: inline-block;
   text-align: left;
   vertical-align: middle;
-
-=======
-  font-weight: normal/400;
->>>>>>> parent of 036462b... changed font weight
+  font-weight: 400;
 }
 
-.section {
-  background-color: #f2f2f2;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-
-.section-image {
+img {
   width: 100%;
   color: #666;
   display: block;
-  max-width: 25em;
 }
 
-.section-body
-  width: 100%;
+h2 {
+  text-align: left;
   color: #333;
   font-weight: bold/700;
 }
 
-a.btn {
+.btn {
   padding: 0.4em 0.75em 0.5em;
   background-color: #fff;
   border-radius: 8px;
@@ -61,6 +53,7 @@ a.btn {
 }
 
 div {
+  vertical-align: middle;
   max-width:25em;
   display: inline-block;
   margin: 1.5rem;
