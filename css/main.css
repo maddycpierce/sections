@@ -15,7 +15,7 @@ body {
   font-family: "Lato", sans-serif;
   color: #333;
   font-size: 70%;
-  font-weight: normal/400;
+  font-weight: 400;
 }
 
 img {
@@ -27,7 +27,7 @@ img {
 h2 {
   text-align: left;
   color: #333;
-  font-weight: bold/700;
+  font-weight: 700;
 }
 
 .btn {
