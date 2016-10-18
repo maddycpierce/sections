@@ -15,20 +15,19 @@ body {
   font-family: "Lato", sans-serif;
   color: #333;
   font-size: 70%;
-  font-weight: 400;
+  font-weight: normal/400;
 }
 
 img {
   width: 100%;
   color: #666;
-  display:inline;
+  display: inline;
 }
 
-h1 {
+h2 {
   text-align: left;
-  font-weight: 700;
   color: #333;
-  font-weight: bold;
+  font-weight: bold/700;
 }
 
 .btn {
